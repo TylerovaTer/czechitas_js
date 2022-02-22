@@ -12,7 +12,7 @@ let vek =25
 let vaha = 60
 let vyska = 1.72
 
-let BMI = vaha/(vyska**vyska)
+let BMI = vaha/(vyska*vyska)
 
 console.log ("Jmenuji se " + jmeno + " , je mi " + vek + " let, vážím " + vaha + "kg, měřím " + vyska + "m a mmoje BMI je " + BMI)
 
