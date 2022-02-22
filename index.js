@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+// vždy spouští soubor index.js, pokud chci zapnout z něčeho jiného, musím to importovat//
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+import './czechitas_js/ukol1.js';
