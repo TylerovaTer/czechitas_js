@@ -1,9 +1,25 @@
-let strana1 = Number(prompt("Zadej první stranu"));
-let strana2 = Number(prompt("Zadej druhou stranu"));
-let strana3 = Number(prompt("Zadej třetí stranu"));
+let a = Number(prompt("Zadej první stranu"));
+let b = Number(prompt("Zadej druhou stranu"));
+let c = Number(prompt("Zadej třetí stranu"));
 
-if ((strana1 + strana2)>strana3){
-  consol.log("trojuhelnik jde sestrojit")
-}else {
-  consol.log("nic")
+let nejvetsi = max(a,b,c);
+let nejmensi = min(a,b,c);
+let stredni = 0;
+
+if (a<b&&a>c) or (a>b&&a<c) {
+  stredni = stredni + a
+} else if (b<a&&b>c) or (b>a&&b<c) {
+  stredni = stredni + b
+} else if (c<a&&c>b) or (c>a&&c<b) {
+  stredni = stredni + c
 }
+
+let soucet = stredni + nejmensi;
+
+if (soucet > nejvetsi) {
+  console.log("trojuhejnik jde sestrojit")
+} else {
+  console.log("trojuhelnik nejde sestrojit")
+}
+
+  
