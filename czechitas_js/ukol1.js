@@ -7,6 +7,12 @@
 // zobrazí vyskakovací okýnko s textem
 //alert("Tvá stránka je nejlepší")
 
-let jmeno = "Petr";
+let jmeno = "Terka"
+let vek =25
+let vaha = 60
+let vyska = 1.72
 
-console.log(jmeno);
+let BMI = vaha/(vyska**vyska)
+
+console.log ("Jmenuji se " + jmeno + " , je mi " + vek + " let, vážím " + vaha + "kg, měřím " + vyska + "m a mmoje BMI je " + BMI)
+
