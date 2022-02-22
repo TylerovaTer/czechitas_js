@@ -1,3 +1,3 @@
 // vždy spouští soubor index.js, pokud chci zapnout z něčeho jiného, musím to importovat//
 
-import './czechitas_js/ukol5.js';
+import './czechitas_js/ukol6.js';
