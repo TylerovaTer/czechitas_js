@@ -1,6 +1,12 @@
 //vypisuje text v uvozovce
-console.log('Ahoj');
+//console.log('Ahoj');
+
 // vyžádá odpověď od uživetele
 //prompt("Kolik je ti let?");
+
 // zobrazí vyskakovací okýnko s textem
-alert("Tvá stránka je nejlepší")
+//alert("Tvá stránka je nejlepší")
+
+let jmeno = "Petr";
+
+console.log(jmeno);
