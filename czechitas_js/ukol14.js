@@ -3,12 +3,16 @@ function jestelaskavejsifunkce (x) {
   for (i = 2; i<x; i++) {
     if (x%i==0){
       prvocislo = false
+      console.log("není")
       break;
+    } else {
+      console.log("je")
+      break
     }
   }
   return prvocislo
 }
 
-jestelaskavejsifunkce (5)
 
-jestelaskavejsifunkce(8)
+jestelaskavejsifunkce(11)
+
